@@ -1,4 +1,4 @@
--- [[ Luarocks (dependency) ]]
+-- [[ Luarocks (Dependency) ]]
 
 return {
 	"vhyrro/luarocks.nvim",

@@ -40,12 +40,6 @@ return {
 				"stylua", -- lua formatter
 				"isort", -- python formatter
 				"black", -- python formatter
-				-- Linters -- currently not enabled
-				-- "htmlhint", -- html linter
-				-- "stylelint", -- css linter
-				-- "eslint_d", -- javascript linter
-				-- "pylint", -- python linter
-				-- "luacheck", -- lua linter -- could not get this to work. luarock error according to :mason
 			},
 		})
 	end,

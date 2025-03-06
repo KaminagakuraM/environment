@@ -1,4 +1,4 @@
--- [[ Formatting Servers ]]
+-- [[ Formatting ]]
 
 return {
 	"stevearc/conform.nvim",

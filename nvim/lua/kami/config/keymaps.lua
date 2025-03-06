@@ -17,9 +17,10 @@ vim.keymap.set("n", "<leader><tab>", "<cmd>tabn<CR>", { desc = "Go to next tab" 
 
 -- [[ Plugins ]]
 
--- Explore Tree
-vim.keymap.set("n", "<leader>ec", "<cmd>NvimTreeCollapse<CR>", { desc = "Collapse file explorer" })
-vim.keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
+-- Mini.nvim Explore Tree
+vim.keymap.set("n", "<leader>e", function()
+	MiniFiles.open(vim.api.nvim_buf_get_name(0), false)
+end, { desc = "Toggle file explorer" })
 
 -- Telescope
 vim.keymap.set("n", "<leader>gf", "<cmd>Telescope find_files<cr>", { desc = "Fuzzy find files in cwd" })
