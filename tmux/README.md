@@ -1,11 +1,9 @@
 ## Tmux Configuration
 
-- Install tmux
+- install tmux
   - `brew install tmux`
-- Copy `tmux`'s repo folder into `~/.config/`
-- Source tmux config
+- copy `tmux`'s repo folder into `~/.config/`
+- source tmux config
   - `tmux source-file ~/.config/tmux/tmux.conf`
-- Git clone tpm to manage your plugins
-  - `git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm`
-- Go into your `tmux.conf` and uncomment wanted configurations. Be sure to \
-  follow the instructions written in the file
+- make sure to install plugins from the `conf` file ususing `prefix + I`
+  - prefix is set to `control + a`
