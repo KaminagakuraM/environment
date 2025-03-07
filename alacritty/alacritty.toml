@@ -1,0 +1,35 @@
+# -- [[ Alacritty Terminal ]] --
+
+# -- General Configuration
+
+[env]
+# set term gui colors
+TERM = "xterm-256color"
+
+[window]
+# add padding around window
+padding.x = 10
+padding.y = 10
+
+# remove buttons (macos)
+decorations = "Buttonless"
+
+# window view
+opacity = 0.3
+blur = true
+
+# start alacritty maximized
+startup_mode = "Maximized"
+
+[font]
+# set font
+normal.family = "MesloLGS Nerd Font Mono"
+
+# set font size
+size = 20
+
+[general]
+# Theme
+import = [
+  "~/.config/alacritty/alacritty-theme/themes/catppuccin-macchiato.toml"
+]

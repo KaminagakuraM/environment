@@ -1,9 +1,13 @@
 #### Nvim
 
 - install nvim
+
   - `brew install neovim`
+
 - download these required packages to your system using `brew install`:
+
   - `node`, `npm`, `ripgrep`, `pngpaste`, `luarocks`, `fd`
+
 - copy the `nvim` repo folder into your `/.config` folder
 
 #### Important

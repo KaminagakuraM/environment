@@ -8,13 +8,16 @@ program subfolders:
 
 - [Nvim](./nvim/)
 - [Tmux](./tmux/)
+- [Alacritty](./alacritty/)
 
 ---
 
 #### Aerospace configuration
 
 - install aerospace
+
   - `brew install aerospace`
+
 - copy aerospace folder into your `.config` folder
 
 ---
