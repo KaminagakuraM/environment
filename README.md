@@ -3,7 +3,7 @@
 ---
 
 Instructions for properly installing `.config` files for `Aerospace` can be found \
-below, as for the other configurations, they are located in their resective \
+below, as for the other configurations, they are located in their respective \
 program subfolders:
 
 - [Nvim](./nvim/)
