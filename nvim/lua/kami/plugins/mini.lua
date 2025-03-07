@@ -1,4 +1,4 @@
--- [[ Mini.Nvim (All-in-One) ]]
+-- [[ Mini.Nvim (All-In-One) ]]
 
 return {
 	"echasnovski/mini.nvim",
