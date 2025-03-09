@@ -1,3 +1,5 @@
+-- [[ Better Interface ]]
+
 return {
 	"folke/noice.nvim",
 	event = "VeryLazy",

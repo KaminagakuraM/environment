@@ -1,4 +1,4 @@
--- [[ Package Manager ]]
+-- [[ LSP Package Manager ]]
 
 return {
 	"williamboman/mason.nvim",

@@ -1,4 +1,4 @@
--- [[ Language Servers Config ]]
+-- [[ Language Server Config ]]
 
 return {
 	"neovim/nvim-lspconfig",

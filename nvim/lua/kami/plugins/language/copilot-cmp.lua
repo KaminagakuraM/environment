@@ -1,4 +1,4 @@
--- [[ Copilot-CMP ]]
+-- [[ Copilot Completion ]]
 
 return {
 	"zbirenbaum/copilot-cmp",

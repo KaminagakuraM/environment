@@ -1,4 +1,4 @@
--- [[ Harpoon2 ]]
+-- [[ Harpoon ]]
 
 return {
 	"ThePrimeagen/harpoon",

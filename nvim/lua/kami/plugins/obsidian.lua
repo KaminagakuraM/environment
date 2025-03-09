@@ -1,4 +1,4 @@
--- [[ Obsidian ]]
+-- [[ Obsidian Integration ]]
 
 return {
 	"epwalsh/obsidian.nvim",
