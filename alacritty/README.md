@@ -11,13 +11,15 @@
 
 - copy alacritty's repo folder into `~/.config/`
 
-  - uncomment and change the value of `normal.family` to the font you installed in `alacritty.toml`
+  - uncomment and change the value of `normal.family` to the font you installed \
+    in `alacritty.toml`
 
 - install alacritty theme
 
   - clone the following repo in the same location as `alacritty.toml`
     - `git clone https://github.com/alacritty/alacritty-theme themes`
-  - go into `alacritty.toml` and set your theme by uncommentting the `import` line
+  - go into `alacritty.toml` and set your theme by uncommentting the `import` \
+    line
     - list of themes can be found in `alacritty-theme`'s repo
     - "catppuccin" is the theme included in the file
 
