@@ -21,6 +21,9 @@ return {
 		-- git integration
 		require("mini.git").setup()
 
+		-- git differences
+		require("mini.diff").setup()
+
 		-- simple statusline
 		require("mini.statusline").setup()
 	end,

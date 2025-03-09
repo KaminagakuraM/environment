@@ -1,8 +1,8 @@
 -- [[ Basic Keymaps ]]
 
 vim.keymap.set("i", "jk", "<ESC>", { desc = "exit insert mode" })
-vim.keymap.set("n", "<leader>w", ":w<CR>", { desc = "Save file" })
-vim.keymap.set("n", "<leader>q", ":q<CR>", { desc = "Quit file" })
+vim.keymap.set("n", "<leader>j", ":w<CR>", { desc = "Save file" })
+vim.keymap.set("n", "<leader>k", ":q<CR>", { desc = "Quit file" })
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "disable highlight" })
 
 -- Window
