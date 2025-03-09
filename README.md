@@ -2,23 +2,13 @@
 
 ---
 
-Instructions for properly installing `.config` files for `Aerospace` can be found \
-below. As for the other configurations, they are located in their respective \
-program subfolders:
+Instructions for properly installing `.config` files for each program can be \
+found in their respective subfolders:
 
 - [Nvim](./nvim/)
 - [Tmux](./tmux/)
 - [Alacritty](./alacritty/)
-
----
-
-#### Aerospace configuration
-
-- install aerospace
-
-  - `brew install --cask aerospace`
-
-- copy aerospace folder into your `.config` folder
+- [Aerospace](./aerospace/)
 
 ---
 
