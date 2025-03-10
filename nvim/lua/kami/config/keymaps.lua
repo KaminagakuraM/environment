@@ -26,6 +26,7 @@ end, { desc = "Toggle file explorer" })
 vim.keymap.set("n", "<leader>gf", "<cmd>Telescope find_files<cr>", { desc = "Fuzzy find files in cwd" })
 vim.keymap.set("n", "<leader>gr", "<cmd>Telescope oldfiles<cr>", { desc = "Fuzzy find recent files" })
 vim.keymap.set("n", "<leader>gs", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
+vim.keymap.set("n", "<leader>gt", "<cmd>TodoTelescope<cr>", { desc = "Find TODOs" })
 
 -- Undo Tree
 vim.keymap.set("n", "<leader>u", "<cmd>Telescope undo<cr>", { desc = "Open Undo Menu" })
