@@ -33,5 +33,5 @@ Here are some of the configuration files from which I constantly referenced from
 and even included in my personal work environment:
 
 - [89iuv's Catppuccin Tmux theme](https://github.com/catppuccin/tmux/discussions/317?sort=top)
-
-  <!--TODO: include links /-->
+- [Kickstart Nvim](https://github.com/nvim-lua/kickstart.nvim)
+- [Josean Martinez](https://www.josean.com/posts/tmux-setup)
