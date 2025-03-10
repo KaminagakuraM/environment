@@ -1,31 +1,30 @@
-#### Alacritty terminal
+#### Alacritty Configuration
 
-- install alacritty
+- Install Alacritty using your prefered method, I use brew in this config:
 
   - `brew install --cask alacritty`
 
-- download terminal [nerd font](https://www.nerdfonts.com/font-downloads)
+- Download terminal [nerd font](https://www.nerdfonts.com/font-downloads).
 
-  - "Meslo LG" is the font pre-included in this file
-  - install chosen font to your computer's font folder
+  - "Meslo LG" is the font used in this config.
 
-- copy alacritty's repo folder into `~/.config/`
+  - Install chosen font to your computer's font folder.
 
-  - uncomment and change the value of `normal.family` to the font you installed \
-    in `alacritty.toml`
+- Move `alacritty.toml` into your computer's `~/.config/alacritty` folder. You \
+  can create said folder if it was not automatically created when installing Alacritty.
 
-- install alacritty theme
+  - If needed, change the value of `normal.family` to the font you installed \
+    in `alacritty.toml`.
 
-  - clone the following repo in the same location as `alacritty.toml`
+- Configure Alacritty theme.
+
+  - Clone the following repo in the same location as `alacritty.toml`.
+
     - `git clone https://github.com/alacritty/alacritty-theme themes`
-  - go into `alacritty.toml` and set your theme by uncommentting the `import` \
-    line
-    - list of themes can be found in `alacritty-theme`'s repo
-    - "catppuccin" is the theme included in the file
 
-- install terminal theme
-  - `brew install powerlevel10k`
-  - to enable p10k include it in `.zshrc` with:
-    - `echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc`
-      - now `source ~/.zshrc`
-    - `p10k configure`
+  - Go into `alacritty.toml` and set your theme by uncommentting the `import` \
+    line.
+
+    - List of themes can be found in [alacritty-theme's](https://github.com/alacritty/alacritty-theme) repository.
+
+    - "Catppuccin" is the theme used in the config.

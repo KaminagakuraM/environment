@@ -1,17 +1,15 @@
-# -- [[ Alacritty Terminal ]] --
-
-# -- General Configuration
+# -- [[ Alacritty Terminal ]]
 
 [env]
 # set term gui colors
 TERM = "xterm-256color"
 
 [window]
-# add padding around window
+# add padding
 padding.x = 10
 padding.y = 10
 
-# remove buttons (macos)
+# buttonless look
 decorations = "Buttonless"
 
 # window view
@@ -30,6 +28,6 @@ size = 20
 
 [general]
 # Theme
-import = [
-  "~/.config/alacritty/alacritty-theme/themes/catppuccin-macchiato.toml"
-]
+# import = [
+#   "~/.config/alacritty/alacritty-theme/themes/catppuccin-macchiato.toml"
+# ]

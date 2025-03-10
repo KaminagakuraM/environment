@@ -1,16 +1,17 @@
-## Tmux Configuration
+#### Tmux Configuration
 
-- install tmux
+- Install Tmux.
 
   - `brew install tmux`
 
-- copy `tmux`'s repo folder into `~/.config/`
+- Move `tmux.toml` into your computer's `~/.config/tmux` folder. You can create \
+  said folder if it was not automatically created when installing tmux.
 
-- source tmux config
+- Source tmux config.
 
   - `tmux source-file ~/.config/tmux/tmux.conf`
 
-- make sure to install plugins from the `conf` file using `prefix + I`, while \
-  inside a tmux session
+- Make sure to install plugins from `tmux.conf` file using `prefix + I`, while \
+  in a tmux session.
 
-  - prefix is set to `control + a`
+  - Prefix is set to `control + a`.
